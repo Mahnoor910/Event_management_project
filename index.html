@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Events | Luxury & Modest Event Planners</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Aura<span>Events</span></div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Past Events</a>
+      <a href="#about">About Us</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact" class="btn-nav">Book Now</a>
+    </nav>
+  
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">✦ Premier Event Planners ✦</span>
+      <h1>Turning Your Dream Events Into Reality</h1>
+      <div class="gold-divider"></div>
+      <p>From royal weddings to graceful family gatherings and corporate events, we craft timeless memories with elegance and care.</p>
+      <a href="#services" class="scroll-hint">Explore Our Services ↓</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <h2 class="section-title">Our Services</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="card-icon">💍</div>
+        <h3>Customized Luxury Weddings</h3>
+        <p>Complete wedding planning, elegant floral stage decor, segregated seating arrangements, and catering.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">✨</div>
+        <h3>Family Gatherings</h3>
+        <p>Graceful arrangements for Aqeeqah, anniversaries, family reunions, and private formal dinners.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🏛️</div>
+        <h3>Corporate Galas</h3>
+        <p>Seminars, product launches, annual corporate dinners, and formal award ceremonies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filterable Past Events Gallery -->
+  <section id="gallery" class="section bg-dark">
+    <h2 class="section-title">Past Events Gallery</h2>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="wedding">Weddings</button>
+      <button class="filter-btn" data-filter="family">Family Events</button>
+      <button class="filter-btn" data-filter="corporate">Corporate</button>
+    </div>
+
+    <div class="grid-3 gallery-grid">
+      <!-- Event Card 1 -->
+      <div class="gallery-item" data-category="wedding">
+        <div class="card-image-box">
+          <span class="badge-tag">Wedding</span>
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600" alt="Wedding">
+        </div>
+        <div class="card-details">
+          <h3>Grand Mehndi & Baraat</h3>
+          <p class="location">📍 DHA Phase 6, Karachi</p>
+          <p class="desc">Complete royal wedding planning with custom floral stage decor, lighting, and guest catering.</p>
+          <div class="meta-info">
+            <span>📅 February 2026</span>
+            <span>👥 500 Guests</span>
+          </div>
+          <blockquote class="client-quote">
+            "Aura Events made our wedding look absolute magic! The attention to detail was incredible."
+            <cite>— Mr. & Mrs. Rehan</cite>
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- Event Card 2 -->
+      <div class="gallery-item" data-category="family">
+        <div class="card-image-box">
+          <span class="badge-tag">Family Event</span>
+          <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600" alt="Family Dinner">
+        </div>
+        <div class="card-details">
+          <h3>Private Family Dinner</h3>
+          <p class="location">📍 PECHS, Karachi</p>
+          <p class="desc">An elegant and modest family reunion setup featuring fine dining and subtle warm lighting.</p>
+          <div class="meta-info">
+            <span>📅 January 2026</span>
+            <span>👥 80 Guests</span>
+          </div>
+          <blockquote class="client-quote">
+            "Very professional and respectful team. The food and seating arrangements were top-notch."
+            <cite>— Mrs. Zainab Tariq</cite>
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- Event Card 3 -->
+      <div class="gallery-item" data-category="corporate">
+        <div class="card-image-box">
+          <span class="badge-tag">Corporate</span>
+          <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=600" alt="Corporate">
+        </div>
+        <div class="card-details">
+          <h3>Tech Summit & Gala</h3>
+          <p class="location">📍 Clifton, Karachi</p>
+          <p class="desc">Formal corporate annual dinner, stage sound system, projector setup, and award distribution.</p>
+          <div class="meta-info">
+            <span>📅 December 2025</span>
+            <span>👥 300 Guests</span>
+          </div>
+          <blockquote class="client-quote">
+            "Our corporate partners were deeply impressed by the stage setup and event management."
+            <cite>— TechNova CEO</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section (Replaced Package Builder) -->
+  <section id="about" class="section">
+    <div class="about-container">
+      <div class="about-text">
+        <span class="section-subtitle">✦ Who We Are ✦</span>
+        <h2 class="section-title" style="text-align: left; margin-bottom: 1.5rem;">Crafting Moments Into Timeless Memories</h2>
+        <p>At <strong>Aura Events</strong>, we believe every celebration is unique and deserves to be executed with absolute perfection, grace, and attention to detail.</p>
+        <p>With years of experience in managing high-end royal weddings, graceful family gatherings, and formal corporate galas across Pakistan, our dedicated team takes the stress off your shoulders so you can truly enjoy your special day.</p>
+        
+        <div class="about-features">
+          <div class="feature-item">
+            <span>✔</span> 100% Customized Planning
+          </div>
+          <div class="feature-item">
+            <span>✔</span> Transparent & Graceful Execution
+          </div>
+          <div class="feature-item">
+            <span>✔</span> Professional & Respectful Team
+          </div>
+        </div>
+      </div>
+
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=700" alt="About Aura Events">
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Slider -->
+  <section id="testimonials" class="section bg-dark">
+    <h2 class="section-title">What Our Clients Say</h2>
+    <div class="slider-container">
+      <button class="slide-btn" id="prevSlide">❮</button>
+      <div class="testimonial-card">
+        <p id="reviewText">"Aura Events made our wedding look like a dream! Everything from decor to food was top notch."</p>
+        <h4 id="reviewAuthor">- Sara & Ahmed, Karachi</h4>
+      </div>
+      <button class="slide-btn" id="nextSlide">❯</button>
+    </div>
+  </section>
+
+  <!-- Booking & Contact Section -->
+  <section id="contact" class="section">
+    <div class="contact-header">
+      <h2 class="section-title" style="margin-bottom: 0.5rem;">Get in Touch</h2>
+      <p class="contact-subtitle">Ready to plan your special event? Contact us for a free consultation and let's bring your vision to life.</p>
+    </div>
+
+    <div class="contact-container">
+      
+      <!-- Left Side: Form -->
+      <div class="contact-form-box">
+        <h3>Send us a Message</h3>
+        <form id="bookingForm">
+          <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" id="fullName" placeholder="Sara Khan" required>
+          </div>
+
+          <div class="form-group">
+            <label>Phone Number *</label>
+            <input type="tel" id="phone" placeholder="+92 3123456789" required>
+          </div>
+
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" id="email" placeholder="Sara@example.com">
+          </div>
+
+          <div class="form-group">
+            <label>Event Date *</label>
+            <input type="date" id="eventDate" required>
+          </div>
+
+          <div class="form-group">
+            <label>Message *</label>
+            <textarea id="message" rows="4" placeholder="Tell us about your event..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+          <p id="formMessage" class="form-msg"></p>
+        </form>
+      </div>
+
+      <!-- Right Side: Info Cards -->
+      <div class="contact-info-boxes">
+        <div class="info-card">
+          <div class="info-icon">📍</div>
+          <div>
+            <h3>Book a Visit</h3>
+            <p>Contact on our provided number to book a consultation for your event.</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon">📞</div>
+          <div>
+            <h3>Call Us</h3>
+            <p>+92 3987654321 <br>+92 3456789012</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon">✉️</div>
+          <div>
+            <h3>Email Us</h3>
+            <p>auraevents46@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Aura Events Pakistan. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
